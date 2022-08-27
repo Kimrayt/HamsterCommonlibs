@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/redisSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/HamsterData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/IHamsterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/HamsterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/HamsterDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/test/java/com/example/producer/ProducerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/test/java/com/example/redishamster/RedisHamsterApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DependenciesAnalyzeManager">
+    <option name="includeTests" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../redisHamster" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DAK0YISF6nhsISibBjrswKI3wU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster/Repository",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "56559995e3a63fba31475ba68ed68680"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster\Repository" />
+      <recent name="C:\Users\Kimrayt\IdeaProjects\consumer\src\main\java\com\example\consumer" />
+      <recent name="C:\Users\Kimrayt\IdeaProjects\producer" />
+      <recent name="C:\Users\Kimrayt\IdeaProjects\commonlibs\src\main\java\DTO" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.redishamster" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RedisHamsterApplication">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisHamsterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redisHamster" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redishamster.RedisHamsterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="docker build -t producer-img . &amp;&amp; docker run -p 9090:9092 --name producer producer-img" />
+          <option name="containerName" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Spring Boot.RedisHamsterApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="" />
+      <created>1660136229703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660136229703</updated>
+      <workItem from="1660136230973" duration="5457000" />
+      <workItem from="1660148408003" duration="10736000" />
+      <workItem from="1660166442799" duration="749000" />
+      <workItem from="1660208829192" duration="5570000" />
+      <workItem from="1660307608586" duration="1445000" />
+      <workItem from="1660330743647" duration="2683000" />
+      <workItem from="1660574062241" duration="1214000" />
+      <workItem from="1661178446765" duration="2863000" />
+      <workItem from="1661252564003" duration="1052000" />
+      <workItem from="1661270112561" duration="165000" />
+      <workItem from="1661270290907" duration="728000" />
+      <workItem from="1661333789732" duration="6378000" />
+      <workItem from="1661520257297" duration="6760000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
