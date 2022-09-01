@@ -4,71 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/redisSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Datum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/HamsterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/IHamsterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RestClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/HamsterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Kafka/MessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/DataServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Repository/HamsterDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/example/consumer/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/test/java/com/example/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/RestClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../producer/src/test/java/com/example/producer/ProducerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/test/java/com/example/redishamster/RedisHamsterApplicationTests.java" afterDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaTopicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../redisHamster" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../producer" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,13 +59,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster/Repository",
+    "last_opened_file_path": "C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster/Kafka",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "56559995e3a63fba31475ba68ed68680"
+    "spring.configuration.checksum": "d178566ae23c9ec82e5ddd107fc814e1"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -126,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster\Kafka" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster\Repository" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\consumer\src\main\java\com\example\consumer" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\producer" />
@@ -202,7 +152,19 @@
       <workItem from="1661270290907" duration="728000" />
       <workItem from="1661333789732" duration="6378000" />
       <workItem from="1661520257297" duration="6760000" />
+      <workItem from="1661579380490" duration="504000" />
+      <workItem from="1661581306779" duration="3257000" />
+      <workItem from="1661974456777" duration="1215000" />
+      <workItem from="1662026679561" duration="8403000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1661579512090</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661579512090</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

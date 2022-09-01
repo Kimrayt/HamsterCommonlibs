@@ -12,7 +12,7 @@ import javax.annotation.Generated;
 public class Data implements Serializable
 {
 
-    private List<Datum> data = null;
+    private List<Datum> data;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
     private final static long serialVersionUID = 4248752446487658102L;
 

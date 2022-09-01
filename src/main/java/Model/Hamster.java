@@ -17,4 +17,12 @@ public class Hamster implements Serializable {
     private String hamsterName;
     private Double hamsterWeight;
 
+    @Override
+    public String toString() {
+        return "Hamster{" +
+                "hamId=" + hamId +
+                ", hamsterName='" + hamsterName + '\'' +
+                ", hamsterWeight=" + hamsterWeight +
+                '}';
+    }
 }
