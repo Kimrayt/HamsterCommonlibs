@@ -4,39 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Fixed message listening">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Controllers/HamsterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/HamsterNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/HamsterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/IHamsterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterServiceImpl.java" afterDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../producer/src/main/resources/kafkaTest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/HamsterItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/Dockerfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaTopicConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../producer" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../redisHamster" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaTopicConfig.java" root0="FORCE_HIGHLIGHTING" />
@@ -113,25 +100,25 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster",
+    "last_opened_file_path": "C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster/Kafka",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "7f8f9b7905b91873a0b2174dda266cba"
+    "spring.configuration.checksum": "d178566ae23c9ec82e5ddd107fc814e1"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
-      "mongo",
-      "mysql"
+      "mysql",
+      "mongo"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster\Kafka" />
+      <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\redisHamster\src\main\java\com\example\redishamster\Repository" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\consumer\src\main\java\com\example\consumer" />
       <recent name="C:\Users\Kimrayt\IdeaProjects\producer" />
@@ -235,7 +222,10 @@
       <workItem from="1662145671182" duration="2236000" />
       <workItem from="1662379241124" duration="13628000" />
       <workItem from="1662478948616" duration="2986000" />
-      <workItem from="1662561821072" duration="8401000" />
+      <workItem from="1662561821072" duration="13047000" />
+      <workItem from="1662646260841" duration="4160000" />
+      <workItem from="1662985432404" duration="10757000" />
+      <workItem from="1663072140156" duration="16851000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661579512090</created>
@@ -258,11 +248,29 @@
       <option name="project" value="LOCAL" />
       <updated>1662047237930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository">
+      <created>1662573326160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662573326160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -279,6 +287,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Changed from mongo to redis and added kafka operations" />
     <MESSAGE value="Fixed message listening" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed message listening" />
+    <MESSAGE value="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository" />
   </component>
 </project>
