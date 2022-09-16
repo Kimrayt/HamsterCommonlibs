@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Made json models and listener methods to work with them">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Controllers/HamsterController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/Hamster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/HamsterData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/HamsterItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Model/IHamsterDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Repository/HamsterServiceImpl.java" beforeDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Added listener methods for Order and User models, implemented caching and added id duplication check">
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Datum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HamsterData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/IHamsterDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/RestClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,6 @@
     <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaTopicConfig.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/RestClientConfig.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../producer/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" root0="FORCE_HIGHLIGHTING" />
@@ -236,7 +235,7 @@
       <workItem from="1662985432404" duration="10757000" />
       <workItem from="1663072140156" duration="20787000" />
       <workItem from="1663248931541" duration="2096000" />
-      <workItem from="1663319873075" duration="5971000" />
+      <workItem from="1663319873075" duration="6289000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661579512090</created>
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663164477797</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added listener methods for Order and User models, implemented caching and added id duplication check">
+      <created>1663337472507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663337472507</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +313,7 @@
     <MESSAGE value="Fixed message listening" />
     <MESSAGE value="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository" />
     <MESSAGE value="Made json models and listener methods to work with them" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made json models and listener methods to work with them" />
+    <MESSAGE value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
   </component>
 </project>
