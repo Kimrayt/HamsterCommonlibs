@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Added listener methods for Order and User models, implemented caching and added id duplication check">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Datum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Name.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Hamster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/HamsterData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/IHamsterDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RestClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ApiServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/MessageProducer.java" afterDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything">
+      <change beforePath="$PROJECT_DIR$/.idea/redisSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/redisSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/RestClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +92,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d178566ae23c9ec82e5ddd107fc814e1&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;dcbbd33a645bc2ec31cb693d8ec0f4b4&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -131,13 +124,6 @@
   <component name="RunManager" selected="Spring Boot.RedisHamsterApplication">
     <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
       <method v="2" />
-    </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
@@ -190,7 +176,6 @@
       <item itemvalue="Docker.redisHamster: Compose Deployment" />
       <item itemvalue="HTTP Request.All in generated-requests" />
       <item itemvalue="Spring Boot.RedisHamsterApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ProducerApplication" />
     </list>
     <recent_temporary>
@@ -235,7 +220,11 @@
       <workItem from="1662985432404" duration="10757000" />
       <workItem from="1663072140156" duration="20787000" />
       <workItem from="1663248931541" duration="2096000" />
-      <workItem from="1663319873075" duration="6289000" />
+      <workItem from="1663319873075" duration="7334000" />
+      <workItem from="1663350202982" duration="830000" />
+      <workItem from="1663358412127" duration="1891000" />
+      <workItem from="1663396840529" duration="4058000" />
+      <workItem from="1663594871945" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661579512090</created>
@@ -279,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663337472507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything">
+      <created>1663337831549</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663337831549</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything">
+      <created>1663337866118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663337866118</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +317,7 @@
     <MESSAGE value="Made caching via Redis with MySql server and created rest controller. Switched from CRUD to JPA repository" />
     <MESSAGE value="Made json models and listener methods to work with them" />
     <MESSAGE value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
+    <MESSAGE value="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything" />
   </component>
 </project>

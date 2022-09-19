@@ -13,6 +13,7 @@ import java.lang.annotation.Documented;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document
+@Data
 public class JsonHamsterItem {
     @Id
     private Integer id;
