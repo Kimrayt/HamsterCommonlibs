@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything">
-      <change beforePath="$PROJECT_DIR$/.idea/redisSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/redisSettings.xml" afterDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Added getAll() methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/src/main/java/com/example/producer/ProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../redisHamster" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../producer/src/main/java/com/example/producer/Kafka/KafkaTopicConfig.java" root0="FORCE_HIGHLIGHTING" />
@@ -86,12 +82,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kimrayt/IdeaProjects/redisHamster/src/main/java/com/example/redishamster/Kafka&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kimrayt/IdeaProjects/FrontEnd-master&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;dcbbd33a645bc2ec31cb693d8ec0f4b4&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -224,7 +220,14 @@
       <workItem from="1663350202982" duration="830000" />
       <workItem from="1663358412127" duration="1891000" />
       <workItem from="1663396840529" duration="4058000" />
-      <workItem from="1663594871945" duration="1040000" />
+      <workItem from="1663594871945" duration="2927000" />
+      <workItem from="1663769379619" duration="1428000" />
+      <workItem from="1664201034373" duration="595000" />
+      <workItem from="1664530802896" duration="35000" />
+      <workItem from="1664531500596" duration="1188000" />
+      <workItem from="1664815500261" duration="852000" />
+      <workItem from="1664958396447" duration="659000" />
+      <workItem from="1664967045787" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661579512090</created>
@@ -282,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663337866118</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added getAll() methods">
+      <created>1663595957530</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663595957531</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +328,7 @@
     <MESSAGE value="Made json models and listener methods to work with them" />
     <MESSAGE value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
     <MESSAGE value="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything" />
+    <MESSAGE value="Added getAll() methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added getAll() methods" />
   </component>
 </project>
