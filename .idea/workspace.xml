@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Added getAll() methods">
-      <change afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/UserProducer.java" afterDir="false" />
+    <list default="true" id="ace0875f-17f5-4f79-a235-cf7da2f88419" name="Changes" comment="Made second producer for user and methods for user model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/JsonHamsterUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/KafkaProducerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/Kafka/MessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/java/com/example/redishamster/RedisHamsterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../redisHamster/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +22,13 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../redisHamster" />
+    <option name="RECENT_COMMON_BRANCH" value="css_sandbox" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../producer" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -90,12 +85,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Kimrayt/IdeaProjects/FrontEnd-master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dcbbd33a645bc2ec31cb693d8ec0f4b4&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;49f7d56045cdfd868cddab145af1b785&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -183,6 +179,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="Docker.redisHamster: Compose Deployment" />
         <item itemvalue="Docker.redisHamster.rc-mysql: Compose Deployment" />
         <item itemvalue="HTTP Request.All in generated-requests" />
         <item itemvalue="Docker.redisHamster: Compose Deployment" />
@@ -240,7 +238,21 @@
       <workItem from="1664997681937" duration="2011000" />
       <workItem from="1665058671774" duration="7712000" />
       <workItem from="1665138118478" duration="7034000" />
-      <workItem from="1665233969657" duration="723000" />
+      <workItem from="1665233969657" duration="1205000" />
+      <workItem from="1665480607554" duration="1846000" />
+      <workItem from="1665576364235" duration="4513000" />
+      <workItem from="1665584753876" duration="747000" />
+      <workItem from="1665693863608" duration="1402000" />
+      <workItem from="1665754120427" duration="599000" />
+      <workItem from="1665999596916" duration="596000" />
+      <workItem from="1666035209979" duration="489000" />
+      <workItem from="1666189062521" duration="3407000" />
+      <workItem from="1666270521955" duration="3859000" />
+      <workItem from="1666370248606" duration="768000" />
+      <workItem from="1666374464008" duration="14000" />
+      <workItem from="1666435698893" duration="9774000" />
+      <workItem from="1666471604118" duration="1183000" />
+      <workItem from="1666509864177" duration="14202000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1661579512090</created>
@@ -319,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665059828912</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Made second producer for user and methods for user model">
+      <created>1665235123396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665235123396</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +375,7 @@
     <MESSAGE value="Added listener methods for Order and User models, implemented caching and added id duplication check" />
     <MESSAGE value="Deleted deprecated files and methods, left only currently used. Praying to all gods at once that I haven't broken anything" />
     <MESSAGE value="Added getAll() methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getAll() methods" />
+    <MESSAGE value="Made second producer for user and methods for user model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made second producer for user and methods for user model" />
   </component>
 </project>
